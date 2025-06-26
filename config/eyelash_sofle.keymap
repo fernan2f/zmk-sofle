@@ -52,11 +52,11 @@
 
         BASE {
             bindings = <
-&kp ESC     &kp N1        &kp N2        &kp N3     &kp N4  &kp N5       &kp UP_ARROW     &kp N6      &kp N7  &kp N8     &kp N9      &kp N0       &kp GRAVE
-&kp TAB     &kp Q         &kp W         &kp E      &kp R   &kp T        &kp DOWN_ARROW   &kp Y       &kp U   &kp I      &kp O       &kp P        &kp BACKSPACE
-&kp LCTRL   &kp A         &kp S         &kp D      &kp F   &kp G        &kp LEFT_ARROW   &kp H       &kp J   &kp K      &kp L       &kp TILDE    &kp APOS
-&kp LSHFT   &kp Z         &kp X         &kp C      &kp V   &lt 4 B      &kp RIGHT_ARROW  &kp N       &kp M   &kp COMMA  &kp DOT     &kp FSLH     &kp RIGHT_SHIFT
-&kp C_MUTE  &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL  &mo 1   &kp SPACE    &kp ENTER        &kp RETURN  &mo 2   &mo 2      &kp K_UNDO  &kp K_AGAIN
+&kp ESC     &kp N1        &kp N2        &kp N3     &kp N4  &kp N5       &kp UP_ARROW      &kp N6      &kp N7  &kp N8     &kp N9      &kp N0       &kp GRAVE
+&kp TAB     &kp Q         &kp W         &kp E      &kp R   &kp T        &kp DOWN_ARROW    &kp Y       &kp U   &kp I      &kp O       &kp P        &kp BACKSPACE
+&kp LCTRL   &kp A         &kp S         &kp D      &kp F   &kp G        &kp LEFT_ARROW    &kp H       &kp J   &kp K      &kp L       &kp TILDE    &kp APOS
+&kp LSHFT   &kp Z         &kp X         &kp C      &kp V   &lt 4 B      &kp RIGHT_ARROW   &kp N       &kp M   &kp COMMA  &kp DOT     &kp FSLH     &kp RIGHT_SHIFT
+&kp C_MUTE  &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL  &mo 1   &kp SPACE    &kp K_PLAY_PAUSE  &kp RETURN  &mo 2   &mo 2      &kp K_UNDO  &kp K_AGAIN
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
@@ -65,10 +65,10 @@
 
         layer_1 {
             bindings = <
-&none       &none           &none            &none             &none              &none                &mmv MOVE_UP     &none             &none          &none                 &none                  &none         &none
-&trans      &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp DELETE           &mmv MOVE_DOWN   &none             &kp UNDER      &kp LESS_THAN         &kp GREATER_THAN       &kp DOLLAR    &trans
-&trans      &kp SEMICOLON   &kp SLASH        &kp MINUS         &kp COLON          &kp DOUBLE_QUOTES    &mmv MOVE_LEFT   &kp SINGLE_QUOTE  &kp BACKSLASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp KP_EQUAL  &none
-&trans      &none           &none            &none             &kp PLUS           &none                &mmv MOVE_RIGHT  &none             &kp ASTRK      &none                 &none                  &none         &trans
+&none       &none           &none            &none             &none              &none                &mmv MOVE_UP     &none             &none          &none                 &none                  &none       &none
+&trans      &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp DELETE           &mmv MOVE_DOWN   &none             &kp UNDER      &kp LESS_THAN         &kp GREATER_THAN       &kp DOLLAR  &trans
+&trans      &kp SEMICOLON   &kp SLASH        &kp MINUS         &kp COLON          &kp DOUBLE_QUOTES    &mmv MOVE_LEFT   &kp SINGLE_QUOTE  &kp BACKSLASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL   &none
+&trans      &none           &none            &none             &kp PLUS           &none                &mmv MOVE_RIGHT  &none             &kp ASTRK      &none                 &none                  &none       &trans
 &kp C_MUTE  &trans          &trans           &trans            &trans             &trans               &mkp LCLK        &trans            &trans         &trans                &trans                 &trans
             >;
 
