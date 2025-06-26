@@ -276,7 +276,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - AC HOME
+  - HOME
   - $$mdi:arrow-up-bold$$
   - END
   - {t: '$$mdi:backspace$$', type: backspace}
