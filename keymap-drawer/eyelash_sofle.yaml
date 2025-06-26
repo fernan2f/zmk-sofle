@@ -59,7 +59,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - SYMBOLS
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - PLAY PAUSE
   - RETURN
   - MOVEMENT
   - MOVEMENT
@@ -103,7 +103,7 @@ layers:
   - {t: \, s: '|'}
   - (
   - )
-  - KP EQUAL
+  - {t: '=', s: +}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
