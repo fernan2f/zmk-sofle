@@ -146,7 +146,7 @@ layers:
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - AC HOME
+  - HOME
   - {t: '$$mdi:transfer$$', type: trans}
   - END
   - {t: '$$mdi:backspace$$', type: backspace}
