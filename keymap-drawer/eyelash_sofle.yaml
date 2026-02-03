@@ -33,7 +33,7 @@ layers:
   - D
   - F
   - G
-  - $$mdi:arrow-left-bold$$
+  - PREVIOUS
   - H
   - J
   - K
@@ -46,7 +46,7 @@ layers:
   - C
   - V
   - {t: B, h: AUX}
-  - $$mdi:arrow-right-bold$$
+  - $$mdi:skip-next$$
   - N
   - M
   - {t: ',', s: <}
